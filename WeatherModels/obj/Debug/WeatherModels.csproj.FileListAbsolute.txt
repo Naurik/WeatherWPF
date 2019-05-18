@@ -1,0 +1,14 @@
+c:\users\acer-pc\source\repos\WeatherWPF\WeatherModels\bin\Debug\WeatherModels.dll
+c:\users\acer-pc\source\repos\WeatherWPF\WeatherModels\bin\Debug\WeatherModels.pdb
+c:\users\acer-pc\source\repos\WeatherWPF\WeatherModels\bin\Debug\MaterialDesignColors.dll
+c:\users\acer-pc\source\repos\WeatherWPF\WeatherModels\bin\Debug\MaterialDesignThemes.Wpf.dll
+c:\users\acer-pc\source\repos\WeatherWPF\WeatherModels\bin\Debug\Newtonsoft.Json.dll
+c:\users\acer-pc\source\repos\WeatherWPF\WeatherModels\bin\Debug\MaterialDesignColors.pdb
+c:\users\acer-pc\source\repos\WeatherWPF\WeatherModels\bin\Debug\MaterialDesignThemes.Wpf.pdb
+c:\users\acer-pc\source\repos\WeatherWPF\WeatherModels\bin\Debug\MaterialDesignThemes.Wpf.xml
+c:\users\acer-pc\source\repos\WeatherWPF\WeatherModels\bin\Debug\Newtonsoft.Json.xml
+c:\users\acer-pc\source\repos\WeatherWPF\WeatherModels\obj\Debug\WeatherModels.csprojAssemblyReference.cache
+c:\users\acer-pc\source\repos\WeatherWPF\WeatherModels\obj\Debug\WeatherModels.csproj.CoreCompileInputs.cache
+c:\users\acer-pc\source\repos\WeatherWPF\WeatherModels\obj\Debug\WeatherModels.csproj.CopyComplete
+c:\users\acer-pc\source\repos\WeatherWPF\WeatherModels\obj\Debug\WeatherModels.dll
+c:\users\acer-pc\source\repos\WeatherWPF\WeatherModels\obj\Debug\WeatherModels.pdb

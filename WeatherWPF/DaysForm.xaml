@@ -1,0 +1,90 @@
+﻿<Window x:Class="WeatherWPF.DaysForm"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:WeatherWPF"
+        mc:Ignorable="d"
+        Title="DaysForm" Height="450" Width="800">
+    <Grid Margin="-3,-6,3,6">
+        <Grid.Background>
+            <ImageBrush ImageSource="3.jpg"/>
+        </Grid.Background>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="262*"/>
+            <ColumnDefinition Width="269*"/>
+            <ColumnDefinition Width="261*"/>
+        </Grid.ColumnDefinitions>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="209*"/>
+            <RowDefinition Height="210*"/>
+        </Grid.RowDefinitions>
+        <Image Name="image3" HorizontalAlignment="Left" Height="69" Margin="172,57,0,0" VerticalAlignment="Top" Width="87" Grid.Column="1"/>
+        <Image Name="image4" HorizontalAlignment="Left" Height="69" Margin="165,57,0,0" VerticalAlignment="Top" Width="87" Grid.Column="2"/>
+        <Image Name="image5" HorizontalAlignment="Left" Height="69" Margin="166,45,0,0" VerticalAlignment="Top" Width="87" Grid.Row="1"/>
+        <Image Name="image6" HorizontalAlignment="Left" Height="69" Margin="172,45,0,0" VerticalAlignment="Top" Width="87" Grid.Row="1" Grid.Column="1"/>
+        <TextBlock Name="day_of_week2" HorizontalAlignment="Left" VerticalAlignment="Top" Width="96" Margin="10,10,0,0" Background="{x:Null}" Foreground="#DD18D320" Height="26"/>
+        <TextBlock Name="day_of_week3" HorizontalAlignment="Left" VerticalAlignment="Top" Width="108" Margin="10,10,0,0" Grid.Column="1" Foreground="#DD30FF4C" Height="26"/>
+        <TextBlock Name="day_of_week4" HorizontalAlignment="Left" VerticalAlignment="Top" Width="102" Margin="10,10,0,0" Grid.Column="2" Foreground="#DD3FEE18" Height="26"/>
+        <TextBlock Name="day_of_week5" HorizontalAlignment="Left" VerticalAlignment="Top" Width="95" Margin="11,10,0,0" Grid.Row="1" Height="26" Foreground="#FF20FF2A"/>
+        <TextBlock Name="day_of_week6" HorizontalAlignment="Left" VerticalAlignment="Top" Width="108" Margin="10,10,0,0" Grid.Row="1" Grid.Column="1" Height="26" Foreground="#FF35FF2C"/>
+        <Label Content="Температура" Padding="2 1 0 1" FontFamily="segoe print" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="11,57,0,0" Width="95" Foreground="#DD1DFF1D"/>
+        <Label Content="Влажность" Padding="2 1 0 1" FontFamily="segoe print" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="11,93,0,0" Width="81" Foreground="#DD1AFB1A"/>
+        <Label Content="Ветер" Padding="2 1 0 1" FontFamily="segoe print" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="11,135,0,0" Width="69" Foreground="#DD16FB16"/>
+        <Label Content="Температура" Padding="2 1 0 0" FontFamily="segoe print" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="10,45,0,0" Width="90" Grid.Row="1" Foreground="#DD33FB1E"/>
+        <Label Content="Влажность" Padding="2 1 0 0" FontFamily="segoe print" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="10,81,0,0" Width="75" Grid.Row="1" Foreground="#DD3DF72A"/>
+        <Label Content="Ветер" Padding="2 1 0 0" FontFamily="segoe print" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="10,123,0,0" Width="69" Grid.Row="1" Foreground="#DD32F71E"/>
+        <Label Content="Температура" Padding="2 1 0 0" FontFamily="segoe print" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="10,45,0,0" Width="90" Grid.Row="1" Grid.Column="1" Foreground="#DD36FD22"/>
+        <Label Content="Влажность" Padding="2 1 0 0" FontFamily="segoe print" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="10,81,0,0" Width="75" Grid.Row="1" Grid.Column="1" Foreground="#DD1DFF06"/>
+        <Label Content="Ветер"  Padding="2 1 0 0" FontFamily="segoe print" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="10,123,0,0" Width="69" Grid.Row="1" Grid.Column="1" Foreground="#DD36F523"/>
+        <TextBlock Name="text_temperature2" HorizontalAlignment="Left" Height="26" Margin="106,57,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="63" Foreground="#FF49F716"/>
+        <TextBlock Name="text_humidity2" HorizontalAlignment="Left" Height="26" Margin="106,93,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="63" Foreground="#FF4DF31D"/>
+        <TextBlock Name="text_wind2" HorizontalAlignment="Left" Height="26" Margin="106,135,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="63" Foreground="#FF4DFB1A"/>
+        <TextBlock Name="text_temperature5" HorizontalAlignment="Left" Height="26" Margin="106,45,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="63" Grid.Row="1" Foreground="#FF41F923"/>
+        <TextBlock Name="text_humidity5" HorizontalAlignment="Left" Height="26" Margin="106,81,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="63" Grid.Row="1" Foreground="#FF49FF2C"/>
+        <TextBlock Name="text_wind5" HorizontalAlignment="Left" Height="26" Margin="106,119,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="63" Grid.Row="1" Foreground="#FF41F923"/>
+        <TextBlock Name="text_temperature6" HorizontalAlignment="Left" Height="26" Margin="109,44,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="63" Grid.Row="1" Grid.Column="1" Foreground="#FF44FD27"/>
+        <TextBlock Name="text_humidity6" HorizontalAlignment="Left" Height="26" Margin="109,81,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="63" Grid.Row="1" Grid.Column="1" Foreground="#FF3FFB22"/>
+        <TextBlock Name="text_wind6" HorizontalAlignment="Left" Height="26" Margin="109,123,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="63" Grid.Row="1" Grid.Column="1" Foreground="#FF3FFD21"/>
+        <TextBlock Name="text_date5" HorizontalAlignment="Left" Height="26" Margin="133,10,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="119" Grid.Row="1" Foreground="#FF66F921"/>
+        <TextBlock Name="text_date6" HorizontalAlignment="Left" Height="26" Margin="144,10,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="115" Grid.Row="1" Grid.Column="1" Foreground="#FF42FF19"/>
+        <TextBlock Name="text_date2" HorizontalAlignment="Left" Height="26" Margin="133,10,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="119" Foreground="#FF2DFF23" RenderTransformOrigin="0.513,0.394"/>
+        <TextBlock Name="text_date3" HorizontalAlignment="Left" Height="26" Margin="144,10,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="115" Grid.Column="1" Foreground="#FF50F72A"/>
+        <TextBlock Name="text_date4" HorizontalAlignment="Left" Height="26" Margin="139,10,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="112" Grid.Column="2" Foreground="#FF41F719"/>
+        <Image Name="image2" HorizontalAlignment="Left" Height="69" Margin="166,57,0,0" VerticalAlignment="Top" Width="87"/>
+        <Label Content="Температура" Padding="2 1 0 0" FontFamily="segoe print" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="14,57,0,0" Width="90" Grid.Column="1" Foreground="#DD1BF31B"/>
+        <Label Content="Влажность" Padding="2 1 0 0" FontFamily="segoe print" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="14,93,0,0" Width="75" Grid.Column="1" Foreground="#DD1FEE1F"/>
+        <Label Content="Ветер" Padding="2 1 0 0" FontFamily="segoe print" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="14,135,0,0" Width="69" Grid.Column="1" Foreground="#DD1CF51C"/>
+        <TextBlock Name="text_temperature3" HorizontalAlignment="Left" Height="26" Margin="109,57,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="63" Grid.Column="1" Foreground="#FF55F924"/>
+        <TextBlock Name="text_humidity3" HorizontalAlignment="Left" Height="26" Margin="109,93,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="63" Grid.Column="1" Foreground="#FF5DFD2E"/>
+        <TextBlock Name="text_wind3" HorizontalAlignment="Left" Height="26" Margin="109,131,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="63" Grid.Column="1" Foreground="#FF5EFD2F"/>
+        <Label Content="Температура" Padding="2 1 0 0" FontFamily="segoe print" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="10,57,0,0" Width="90" Grid.Column="2" Foreground="#DD1BEE1B"/>
+        <Label Content="Влажность" Padding="2 1 0 0" FontFamily="segoe print" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="10,93,0,0" Width="75" Grid.Column="2" Foreground="#DD25FB25"/>
+        <Label Content="Ветер"  Padding="2 1 0 0" FontFamily="segoe print" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="10,135,0,0" Width="69" Grid.Column="2" Foreground="#DD28EE28"/>
+        <TextBlock Name="text_temperature4" HorizontalAlignment="Left" Height="26" Margin="105,57,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="63" Grid.Column="2" Foreground="#FF56F527"/>
+        <TextBlock Name="text_humidity4" HorizontalAlignment="Left" Height="26" Margin="105,93,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="63" Grid.Column="2" Foreground="#FF57F529"/>
+        <TextBlock Name="text_wind4" HorizontalAlignment="Left" Height="26" Margin="105,135,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="63" Grid.Column="2" Foreground="#FF64FB38"/>
+        <Button Content="Закрыть" Grid.Column="2" HorizontalAlignment="Center" Margin="124,123,21,0" Grid.Row="1" VerticalAlignment="Top" Width="116" Click="Button_Click" Height="37" Background="#FF5F23C9" FontWeight="Bold" FontSize="16"/>
+        <Separator HorizontalAlignment="Left" Height="100" Margin="54,166,0,0" VerticalAlignment="Top" Width="416" Grid.ColumnSpan="2" RenderTransformOrigin="0.5,0.5" Grid.RowSpan="2">
+            <Separator.RenderTransform>
+                <TransformGroup>
+                    <ScaleTransform/>
+                    <SkewTransform/>
+                    <RotateTransform Angle="90"/>
+                    <TranslateTransform/>
+                </TransformGroup>
+            </Separator.RenderTransform>
+        </Separator>
+        <Separator HorizontalAlignment="Left" Height="100" Margin="61,165,0,0" VerticalAlignment="Top" Width="416" Grid.ColumnSpan="2" RenderTransformOrigin="0.5,0.5" Grid.RowSpan="2" Grid.Column="1">
+            <Separator.RenderTransform>
+                <TransformGroup>
+                    <ScaleTransform/>
+                    <SkewTransform/>
+                    <RotateTransform Angle="90"/>
+                    <TranslateTransform/>
+                </TransformGroup>
+            </Separator.RenderTransform>
+        </Separator>
+        <Separator HorizontalAlignment="Left" Height="100" Margin="0,161,0,0" Grid.RowSpan="2" VerticalAlignment="Top" Width="792" Grid.ColumnSpan="3"/>
+    </Grid>
+</Window>

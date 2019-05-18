@@ -1,0 +1,22 @@
+﻿<Window x:Class="WeatherWPF.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:WeatherWPF"
+        xmlns:materialDesign="http://materialdesigninxaml.net/winfx/xaml/themes"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    <Grid>
+        <Grid.Background>
+            <ImageBrush ImageSource="2.png"/>
+        </Grid.Background>
+        <materialDesign:DialogHost Margin="308,16,0,0" Height="25" TextBlock.FontSize="15" Content="Введите город" TextElement.FontFamily="segoe print" Foreground="Aqua"  VerticalAlignment="Top" Width="140" HorizontalAlignment="Left"/>
+        <TextBox  Name="cityNames1" HorizontalAlignment="Left" Height="35" TextWrapping="Wrap" VerticalAlignment="Top" Width="156" Margin="292,41,0,0" FontFamily="Segoe Script" Background="{x:Null}" CaretBrush="#FF4105AC" Foreground="#FFE6DEDE" SelectionBrush="#FF0B79E8" FontSize="14">
+            <TextBox.Effect>
+                <DropShadowEffect Color="White" Typography.CaseSensitiveForms="True"/>
+            </TextBox.Effect>
+        </TextBox>
+        <Button materialDesign:ColorZoneAssist.Mode="PrimaryDark" Focusable="True" Content="Search" FontSize="18" FontFamily="matura mt script capitals" HorizontalAlignment="Left" Margin="466,41,0,0" VerticalAlignment="Top" Width="99" Height="35" Click="Button_Click"/>
+    </Grid>
+</Window>
